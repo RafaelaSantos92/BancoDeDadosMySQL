@@ -45,7 +45,7 @@ value("Tenis Beach", "Vans", "38",100,true);
 
 select * from tb_produtos;
 
-select * from tb_funcionarios where salario > 2000;
+select * from tb_funcionarios where salario > 500;
 select * from tb_produtos where preco < 500;
 
 
