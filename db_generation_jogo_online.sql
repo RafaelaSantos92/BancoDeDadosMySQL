@@ -52,3 +52,6 @@ inner join tb_classe on tb_classe.id = tb_personagens.classe_id;
 
 select tipo from tb_classe inner join tb_personagens on tb_classe.id = tb_personagens.id;
 
+select tb_personagens.nome, tb_personagens.forca,tb_personagens.ataque,tb_personagens.defesa,tb_classe.tipo,tb_classe.descricao from 
+tb_personagens inner join tb_classe on tb_classe.id = tb_personagens.classe_id where tb_classe.id = 4;
+
