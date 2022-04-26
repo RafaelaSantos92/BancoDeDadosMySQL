@@ -43,3 +43,6 @@ select tb_pizzas.nome,tb_pizzas.sabor,tb_pizzas.vegana,tb_pizzas.preco,tb_catego
  inner join tb_pizzas on tb_categoria.id = tb_pizzas.classe_id;
  
  select sabor from tb_pizzas inner join tb_categoria on tb_pizzas.id = tb_pizzas.id
+ 
+ select tb_pizzas.nome, tb_pizzas.sabor,tb_pizzas.vegana,tb_pizzas.preco,tb_categoria.massa,tb_categoria.descricao from tb_pizzas
+inner join tb_categoria on tb_categoria.id = tb_pizzas.classe_id where tb_categoria.id = 3;
